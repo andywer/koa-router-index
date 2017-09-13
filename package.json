@@ -1,7 +1,7 @@
 {
   "name": "koa-router-index",
   "version": "0.1.0",
-  "description": "Koa v2 middleware for creating an index page for your API server.",
+  "description": "Koa v2 middleware to create an index page for API servers.",
   "main": "lib/index.js",
   "scripts": {
     "test": "ava && standard"
@@ -11,7 +11,7 @@
     "server",
     "index",
     "rest",
-    "routes"
+    "router"
   ],
   "author": "Andy Wermke <andy@dev.next-step-software.com>",
   "repository": "andywer/koa-router-index",
