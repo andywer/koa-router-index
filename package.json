@@ -16,6 +16,9 @@
   "author": "Andy Wermke <andy@dev.next-step-software.com>",
   "repository": "andywer/koa-router-index",
   "license": "MIT",
+  "engines": {
+    "node": ">= 6"
+  },
   "devDependencies": {
     "ava": "^0.22.0",
     "cheerio": "^1.0.0-rc.2",
