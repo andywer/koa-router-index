@@ -1,5 +1,7 @@
 # koa-router-index
 
+[![Build Status](https://travis-ci.org/andywer/koa-router-index.svg?branch=master)](https://travis-ci.org/andywer/koa-router-index) [![NPM Version](https://img.shields.io/npm/v/koa-router-index.svg)](https://www.npmjs.com/package/koa-router-index) [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+
 Middleware to generate an index page for REST API services. For usage with [koa](https://github.com/koajs/koa) v2 and [koa-router](https://github.com/alexmingoia/koa-router).
 
 Why? Because an API service should tell you which endpoints it provides. You should not have to google the service's documentation to be able to use it.
