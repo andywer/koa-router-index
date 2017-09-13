@@ -1,8 +1,12 @@
 # koa-router-index
 
-Middleware to generate index pages for REST API services. For usage with [koa](https://github.com/koajs/koa) v2 and [koa-router](https://github.com/alexmingoia/koa-router).
+Middleware to generate an index page for REST API services. For usage with [koa](https://github.com/koajs/koa) v2 and [koa-router](https://github.com/alexmingoia/koa-router).
 
-Why? Because an API service should tell you which endpoints it provides. You should never have to google the service's documentation in order to use it.
+Why? Because an API service should tell you which endpoints it provides. You should not have to google the service's documentation to be able to use it.
+
+<p align="center">
+  <img alt="Screenshot" width="600px" src="https://github.com/andywer/koa-router-index/raw/master/docs/sample-page.png?raw=true" />
+</p>
 
 
 ## Installation
