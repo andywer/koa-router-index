@@ -53,11 +53,8 @@ Rendering function used to create the index page. Must return an HTML document a
 
 ### meta: Object
 
-#### name: String
-The name of the service.
-
-#### description: String
-A short description of the service.
+- `name` - The name of the service.
+- `description` - A short description of the service.
 
 ### excludeMethods: String[]
 
