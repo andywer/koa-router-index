@@ -6,6 +6,8 @@ import Router from 'koa-router'
 import request from 'supertest'
 import index from '../lib/index'
 
+const normalizeText = string => string.replace(/\n\s*/g, ' ').replace(/\s+/g, ' ').trim()
+
 test('create an index for a router', async t => {
   const router = new Router()
     .get('/users')
@@ -25,9 +27,9 @@ test('create an index for a router', async t => {
   t.is($('h2').text(), 'Routes')
   t.is($('ul').length, 1)
 
-  t.is($(listItems[0]).text(), 'GET /users')
-  t.is($(listItems[1]).text(), 'GET /posts')
-  t.is($(listItems[2]).text(), 'GET|POST|PUT|DELETE /posts/:id')
+  t.is(normalizeText($(listItems[0]).text()), 'GET /users')
+  t.is(normalizeText($(listItems[1]).text()), 'GET /posts')
+  t.is(normalizeText($(listItems[2]).text()), 'GET | POST | PUT | DELETE /posts/:id')
   t.is(listItems.length, 3)
 })
 
