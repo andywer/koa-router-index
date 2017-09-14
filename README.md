@@ -41,6 +41,8 @@ const router = new Router()
 
 const app = new Koa()
   .use(router.routes())
+  .use(IndexPage(router, { meta: { name: 'My fancy API server' } }))
+  // or
   .use(IndexPage(router, { meta: require('./package.json') }))
 ```
 
