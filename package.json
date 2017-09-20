@@ -4,7 +4,8 @@
   "description": "Koa v2 middleware to create an index page for API servers.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "ava && standard"
+    "test": "ava && standard",
+    "prepublish": "npm test"
   },
   "keywords": [
     "koa",
