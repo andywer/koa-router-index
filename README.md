@@ -49,14 +49,14 @@ const app = new Koa()
 
 ## Options
 
-### render: Function (metadata: Object, routingStack: Object[], options: Object) => String
-
-Rendering function used to create the index page. Must return an HTML document as a string.
-
 ### meta: Object
+
+Properties (all optional):
 
 - `name` - The name of the service.
 - `description` - A short description of the service.
+
+The property names match the ones in `package.json`, so you can just pass your parsed `package.json` here.
 
 ### excludeMethods: String[]
 
