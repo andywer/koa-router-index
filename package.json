@@ -1,6 +1,6 @@
 {
   "name": "koa-router-index",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Koa v2 middleware to create an index page for API servers.",
   "main": "lib/index.js",
   "scripts": {
