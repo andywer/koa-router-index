@@ -62,6 +62,9 @@ The property names match the ones in `package.json`, so you can just pass your p
 
 Array of HTTP methods to ignore when creating the index page. Defaults to `[ 'HEAD' ]`.
 
+### prefix: String
+
+The prefix to add the index under.
 
 ## License
 
